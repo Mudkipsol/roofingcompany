@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
@@ -69,18 +70,18 @@ export default function About() {
                 Join hundreds of roofing professionals who trust MBS for their supply needs.
               </p>
               <div className="flex justify-center gap-4">
-                <a
+                <Link
                   href="/inventory"
                   className="bg-[#e33f3f] hover:bg-[#c73333] text-white px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
                   View Live Inventory
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/contact"
                   className="border-2 border-[#e33f3f] text-[#e33f3f] hover:bg-[#e33f3f] hover:text-white px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
